@@ -1,0 +1,43 @@
+# Ignorar archivos generados por el sistema operativo
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos de compilación
+/build/*
+/CMakeFiles/
+/CMakeCache.txt
+Makefile
+cmake_install.cmake
+compile_commands.json
+
+# Ignorar archivos generados por IDEs
+.idea/
+.vscode/
+*.statusCode-workspace
+
+# Ignorar archivos de depuración
+*.log
+*.bak
+*.swp
+*.swo
+*.swn
+
+# Ignorar binarios y ejecutables
+*.exe
+*.out
+*.app
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+
+# Ignorar archivos de empaquetado
+*.tar.gz
+*.zip
+*.7z
+*.rar
+
+Panik0Crawler
